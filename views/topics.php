@@ -3,7 +3,7 @@
 <head>
 <title>INTER</title>
   <?php include 'views/common/head links.html' ?>
-    
+    KIKI IF YOU LOVE ME
     <!-- browser icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/inter/assets/images/test/homepage/favicon blue.png" />
     
