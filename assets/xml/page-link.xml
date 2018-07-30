@@ -1,0 +1,21 @@
+<pages> 
+    <page name="message"> 
+       <link>/INTER/views/company/greetings.html</link>
+    </page>
+
+    <page name="profile"> 
+       <link>/INTER/views/company/profile.html</link>
+    </page>
+
+    <page name="chart"> 
+       <link>/INTER/views/company/organization.html</link>
+    </page>
+
+    <page name="history"> 
+       <link>/INTER/views/company/history.html</link>
+    </page>
+
+    <page name="location">
+       <link>/INTER/views/company/location.html</link>
+    </page>
+</pages>

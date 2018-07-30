@@ -1,0 +1,170 @@
+body {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    color: #4c4c4c;
+}
+
+#mainHeader {
+    width: 100%;
+    height: 80vh;
+    display: table;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#mainHeader>div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+#mainHeader>div>h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    display: block;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Sawarabi Mincho', serif;
+    animation: textFromRight 1s ease-in;
+}
+
+h2 {
+    display: block;
+    margin-top: 20px;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 17.4px;
+    animation: textFromLeft 1s ease-in;
+}
+
+h3 {
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h3,
+h4 {
+    color: #3b3b3b;
+}
+
+p {
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+
+/*p, span {
+    font-size: 14px;
+    color: #4c4c4c;
+}*/
+
+.contents {
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: #f8f8f8;
+}
+
+.title-header hr {
+    border-top: 1px solid rgb(231, 231, 231);
+    max-width: 1000px;
+}
+
+
+/*------------------------------------*\
+  #KEYFRAMES
+\*------------------------------------*/
+
+
+/* Motion from left to right */
+
+@keyframes textFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+/* Motion from right to left */
+
+@keyframes textFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .h1 {
+        font-size: 45px;
+    }
+    .company-nav-container {
+        margin: 0 5px;
+    }
+    .title-header h2 {
+        font-size: 30px;
+    }
+}
+
+
+/*------------------------------------*\
+  #MEDIA QUERIES
+\*------------------------------------*/
+
+@media only screen and (max-device-width: 425px),(orientation:landscape) and (max-device-height:450px),
+(max-width: 500px) {
+
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+        letter-spacing: 7.4px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-device-width: 375px),
+(max-width: 375px) {
+    h3 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-device-width: 320px),
+(max-width: 320px) {
+    h3 {
+        font-size: 20px;
+        white-space: nowrap;
+    }
+}

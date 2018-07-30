@@ -1,0 +1,454 @@
+/* added 1 */
+body.privacy-body {
+	/*font-family: 'Noto Sans Japanese', sans-serif !important; */ /*Jenver Removed 2018-06-26*/
+	/* background-image: url("/inter/assets/images/homepage/privacy page.jpg"); */
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #4c4c4c;
+	overflow: auto;
+}
+
+#mainHeader {
+	background-image: url("/inter/assets/images/common/color.png"), url("/inter/assets/images/homepage/privacy page.jpg");
+}
+.contents {
+	margin-top: 70vh;
+	position: relative;
+	z-index: 3;
+}
+
+.jpn-trans {
+    display: block;
+}
+
+.eng-trans, .mobile {
+    display: none;
+}
+
+.show {
+	opacity: 1 !important;
+	transition: opacity 1s;
+	display: block;
+	visibility: visible;
+}
+
+.hide {
+	display:  none;
+	visibility: hidden;
+}
+
+.privacy {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.personal-information,
+.handling-personal-information {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.privacy img {
+	/* height: 100px;
+	width: auto; */
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.buff-top {
+	padding-top: 10px;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.left-20 {
+	padding-left: 20%;
+}
+
+.float-right {
+	float: right;
+}
+
+.flex {
+	display: flex;
+}
+
+ /*Jenver added 2018-06-26*/
+#mainHeader h2 {
+	letter-spacing: 10px;
+}
+
+.privacy  h3,
+.personal-information h3,
+.handling-personal-information h3 {
+	/*font-family: 'Noto Sans Japanese', sans-serif;*/ /*Jenver Removed 2018-06-26*/
+	/*font-size: 36px;*/
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.privacy .letter-body,
+.personal-information .letter-body,
+.handling-personal-information .letter-body {
+	/*font-family: 'Noto Sans Japanese', sans-serif;*/ /*Jenver Removed 2018-06-26*/
+	width: 60%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.privacy p.head,
+.personal-information p.head,
+.handling-personal-information p.head {
+	text-align: justify;
+}
+.personal-information .letter-footer,
+.handling-personal-information {
+	text-align: start;
+}
+
+.letter-footer {
+	display: inline-block;
+	width: max-content;
+	margin: 0 auto;
+}
+
+.privacy a,
+.handling-personal-information a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.privacy a:hover,
+.handling-personal-information a:hover {
+	text-decoration: none;
+	color: #23527c;
+	transition: .3s;
+}
+
+/*Initially hidden*/
+.personal-information, .handling-personal-information {
+	opacity: 0;
+}
+.personal-information, .handling-personal-information h4 {
+	/*font-family: 'Noto Sans Japanese', sans-serif;*/ /*Jenver Removed 2018-06-26*/
+}
+
+
+#header {
+	/* padding-top: 80px; */
+	text-align: center;
+}
+
+#header hr {
+	border-top: 1px solid rgb(231, 231, 231);
+  }
+
+#header h2 {
+	  text-transform: uppercase;
+	  /*font-size : 37px;*/
+	  margin-top: 25px;
+	  margin-bottom: 10px;
+	  font-weight: bolder;
+	  /*font-family: 'Noto Sans Japanese', sans-serif;*/ /*Jenver Removed 2018-06-26*/
+}
+
+.manual {
+	width: 50%;
+}
+
+.manual .letter-footer p {
+	margin: 0;
+}
+
+.jpn-font-bold {
+    display: block;
+    /* font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 35px; */
+    animation: textFromRight 1s ease-in;
+}
+
+.privacymark {
+	float: left;
+	width: 18%;
+}
+
+/* motion from right to left */
+
+/*Jenver Removed 2018-06-26*/
+/*@keyframes textFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}*/
+
+/* motion from left to right */
+
+/*Jenver Removed 2018-06-26*/
+/*@keyframes textFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}*/
+
+@media screen and (max-width: 1365px){
+	/* commented 2
+	.heading-primary-main {
+		font-size: 49px;
+		letter-spacing: 27px;
+	}
+	commented 2 end */
+
+}
+
+@media only screen and (max-width: 1200px){
+	.privacy .letter-body,
+	.personal-information .letter-body,
+	.handling-personal-information .letter-body {
+		width: 70%;
+	}
+
+	/* .banner .container {
+		font-size: 50px;
+	} */
+
+/*.banner h1 {
+		font-size: 4vw;
+		 font-size: 50px;
+	}*/
+
+	/*Jenver Removed 2018-06-26*/
+/*	.privacy h3 {
+		font-size: 3vw;
+	}*/
+
+	/*Jenver Removed 2018-06-26*/
+	/*.letter-body p {
+		 font-size: 2vw;
+		font-size: 14px;
+	}*/
+
+	.letter-body ol {
+		font-size: 14px;
+	}
+
+	/* commented 3
+	.heading-primary-main {
+		font-size: 40px;
+		letter-spacing: 27px;
+	}
+
+	.heading-primary-sub {
+		font-size: 16px;
+	}
+	commented 3 end */
+}
+
+@media screen and (max-width: 992px){
+	.privacy .letter-body,
+	.personal-information .letter-body,
+	.handling-personal-information .letter-body {
+		width: 80%;
+	}
+
+	.banner .container {
+		width: 25%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 930px){
+	#mainHeader h1 { font-size: 40px; }
+	#mainHeader h2 { font-size: 18px; }
+	#mainHeader h1,
+	#mainHeader h2 { padding: 0 15px 0 15px; }
+}
+
+@media only screen and (max-width: 767px) {
+	 /*Jenver Removed 2018-06-26*/
+/*	h1 {
+		font-size: 29px;
+    }*/
+     /*Jenver Removed 2018-06-26*/
+    /*h2 {
+        font-size: 15px;
+        letter-spacing: 7.4px;
+    }*/
+    /*Jenver Removed 2018-06-26*/
+ /*   h3 {
+        font-size: 26px;
+    }*/
+}
+
+@media only screen and (max-width : 736px), (orientation:landscape) and (max-device-height:450px) {
+
+	/*Jenver Removed 2018-06-26*/
+	/*.letter-body p, */
+	/*ol,*/  /*Jenver Removed 2018-06-26*/
+
+	.letter-body a.privacymark {
+		max-width: 125px;
+	}
+
+	h4 {
+		font-size: 14px;
+	}
+
+	.text-box {
+		padding-right: 0;
+		padding-left: 0;
+		top: 57%;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	.pc {
+		display: none;
+	}
+
+	.privacymark {
+		width: 40%;
+	}
+
+	.privacy .letter-body,
+	.personal-information .letter-body,
+	.handling-personal-information .letter-body {
+		width: 80%;
+	}
+
+	.banner .container {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	/*Jenver Removed 2018-06-26*/
+	/*.banner h1 {
+		font-size: 5vw;
+		 font-size: 50px;
+	}*/
+
+	.privacy {
+		/*margin-top: 10px;*/  /*Jenver Removed 2018-06-26*/
+		margin-bottom: 20px;
+	}
+
+	/*Jenver Removed 2018-06-26*/
+	/*.banner {
+		height: 85vh;
+	}*/
+
+ /*Jenver Removed 2018-06-26*/
+/*	.companyHeader>h2 {
+		margin-top: 20px;
+	}*/
+
+	/*Jenver Removed 2018-06-26*/
+/*	.privacy .container h3 {
+		font-size: 6vw;
+	}*/
+
+
+	.letter-footer {
+	    padding-right: 0;
+		padding-left: 0;
+		width: 100%;
+	}
+
+	/*.letter-footer p,*/ /*Jenver Removed 2018-06-26*/
+	/*.letter-footer div {
+		font-size: 14px;
+	}*/
+
+	.manual .letter-footer {
+		width: 88%;
+	}
+
+	/*Jenver Removed 2018-06-26*/
+/*	.manual .letter-footer p {
+		font-size: 2vw;
+	}*/
+
+	.establish-space {
+		width: 19%;
+	}
+
+	.establish {
+		width: 81%;
+		padding-right: 0;
+    	padding-left: 0;
+	}
+/*
+	#header {
+		margin-bottom: 20px;
+	}
+
+	#header h2{
+		font-size: 4vw;
+	} */
+
+	.manual {
+		width: 90%;
+	}
+
+	.left-20 {
+		padding-left: 0;
+	}
+
+	.parallax {
+        background-attachment: unset;
+    }
+}
+
+/*Jenver Removed 2018-06-26*/
+/*@media only screen and (max-device-width : 414px) {
+	.privacy .container h3 {
+		font-size: 6vw;
+	}
+	ul, .letter-body ol, h4, .row {
+		font-size: 3vw;
+	}
+
+	.letter-footer p,
+	.letter-footer div {
+		font-size: 3vw;
+	}
+	.manual .letter-footer p {
+		font-size: 3vw;
+	}
+	#header h2{
+		font-size: 4vw;
+	}
+	h3 {
+		font-size: 22px;
+	}
+}*/

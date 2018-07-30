@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<!-- <meta charset="UTF-8"> -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0" /> -->
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge;" /> -->
+		<title>Error page</title>
+		<?php include 'views/common/head links.html' ?>
+
+		<link rel="shortcut icon" type="image/x-icon" href="/inter/assets/images/homepage/favicon blue.png" />
+		<link rel="stylesheet" href="/inter/assets/css/common/common.css">
+
+		<style type="text/css">
+
+			#navigation-bar {
+				background-color: #4c4c4c;
+				min-height: 70px;
+			}
+
+			.main {
+				text-align: center;
+				position: relative;
+			}
+
+			.main .child {
+				margin-top: 15%;
+				margin-bottom: 15%;
+				position: relative;
+				width: 100%;
+			}
+			.row {
+				margin-left: 0;
+				margin-right: 0;
+			}
+			.child > h3 {
+				font-family: 'Noto Sans Japanese', sans-serif;
+				font-size: 60px;
+			}
+			.child a {
+				font-family: 'Noto Sans Japanese', sans-serif;
+			}
+
+			.main-footer {
+				position: relative;
+				bottom: 0;
+			}
+
+			@media only screen and (max-width: 500px){
+				.child > h3 {
+					font-size: 30px;
+				}
+			}
+			@media only screen and (max-width: 320px){
+				h3 {
+					white-space: normal;
+				}
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<!-- Navigation section start -->
+		<?php include 'views/common/navigation.html' ?>
+		<!-- Navigation section end -->
+
+		<div id="errorContainer" class="container main">
+			<div class="child row">
+				<h3>ページが見つかりません</h3>
+				<br>
+
+				<div class="btnhov btnhov-color">
+					<a class="button-main  button-blue" href="/inter/">ホームページに戻る</a>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Main footer section start -->
+		<?php include 'views/common/footer.html' ?>
+		<!-- Main footer section end -->
+
+		<!-- Library js-->
+		<script src="/inter/assets/js/common/jquery.min.js"></script>
+		<script src="/inter/assets/js/common/bootstrap.min.js"></script>
+		<!-- Preloader, navbar and footer-->
+		<script src="/inter/assets/js/common/navbar-preloader.js"></script>
+
+	</body>
+</html>

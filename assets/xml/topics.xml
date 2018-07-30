@@ -1,0 +1,247 @@
+<topics>
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text= "名古屋支店 移転" />
+                <date text= "(2018年03月12日)" />
+            </header>
+            <paragraph text="名古屋支店が、移転いたしました。" />
+            <info>
+                <address text="愛知県名古屋市中村区名駅 ３-１１-２２ＩＴ名駅ビル" class="info-details" />
+                <telephone text="052-588-3480" class="info-details" />
+                <fax text="052-588-3481" class="info-details" />
+            </info>
+            <link class="show-link">
+                <url text="/inter/assets/pdf/cyubu2(address).pdf" />
+                <text text="地図を見る" />
+            </link>
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/Nagoya Branch.jpg" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="Nurse Working 販売開始" />
+                <date text= "(2017年07月01日)" />
+            </header>
+            <paragraph text="看護業務をサポートする「Nurse Working」の販売を開始致しました。" />
+            <nextline text="200以上の看護部門様への導入実績を元に新たに看護支援システムをご用意しました。" />
+            <nextline text="看護業務に欠かせない「ワークシート」や「看護経過」はもちろん、『看護必要度』と『褥瘡管理』を標準機能として備え、日々の業務を強力にサポート。 " />
+            <nextline text="また、操作性を重視した画面により業務時間を短縮し、これまで以上に患者様と向き合える時間を確保します。 " />
+            <nextline text="導入をご検討の際は、お気軽にご相談下さい。 " />
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/nurse working small.jpg" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="Nurse e-Learning 販売開始" />
+                <date text= "(2012年04月01日)" />
+            </header>
+            <paragraph text="看護師向けeラーニングアプリ「Nurse e-Learning」の販売を開始致しました。" />
+            <nextline text="iPadを利用することで、時間と場所を選ばない効果的なeラーニングを可能としました。" />
+            <nextline text="NurseNAVIとアドオンさせることで、より効果的に運用していただくことができます。" />
+            <nextline text="導入をご検討の際は、お気軽にご相談下さい。" />
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/homepage/featured products/nurse elearning small.jpg" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="CareHome Manager 販売開始" />
+                <date text= "(2011年06月01日)" />
+            </header>
+            <paragraph text="新パッケージソフト「CareHome Manager」の販売を開始致しました。" />
+            <nextline text="日本最大規模の社会福祉法人様での実績をもとに有料老人ホーム向け施設管理システムパッケージを開発しました。 " />
+            <nextline text="入居者の管理は勿論の事、国保連に対応した請求機能も用意しております。 " />
+            <nextline text="導入をご検討の際は、お気軽にご相談下さい。 " />
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/care home small.jpg" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="名古屋支店 移転" />
+                <date text="(2011年04月25日)" />
+            </header>
+            <paragraph text="名古屋支店が、移転いたしました。" />
+            <info>
+                <address text="愛知県名古屋市中村区名駅３-１６-４太陽生命名駅ビル" class="info-details" />
+                <telephone text="052-588-3480" class="info-details" />
+                <fax text="052-588-3481" class="info-details" />
+            </info>
+            <link class="show-link">
+                <url text="/inter/assets/pdf/cyubu(address).pdf" />
+                <text text="地図を見る" />
+            </link>
+        </textContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="浜松支店 移転" />
+                <date text="(2010年10月20日)" />
+            </header>
+            <paragraph text="浜松支店が、移転いたしました。" />
+            <info>
+                <address text="静岡県浜松市中区砂山町３５３-８太陽生命浜松ビル" class="info-details" />
+                <telephone text="053-455-0005" class="info-details" />
+                <fax text="053-455-0066" class="info-details" />
+            </info>
+            <link class="show-link">
+                <url text="/inter/assets/pdf/hamamatsu.pdf" />
+                <text text="地図を見る" />
+            </link>
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/Hamamatsu Branch.png" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="東京支店 移転" />
+                <date text="(2009年06月08日)" />
+            </header>
+            <paragraph text="東京支店が、移転いたしました。" />
+            <info>
+                <address text="東京都新宿区西新宿１-１３-１２西新宿昭和ビル" class="info-details" />
+                <telephone text="03-6279-0531（代）" class="info-details" />
+                <fax text="03-6279-0532" class="info-details" />
+            </info>
+            <link class="show-link">
+                <url text="/inter/assets/pdf/tokyo(address).pdf" />
+                <text text="地図を見る" />
+            </link>
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/TokyoBranch.png" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="本社 移転" />
+                <date text="(2008年06月01日)" />
+            </header>
+            <paragraph text="本社が、移転いたしました。" />
+            <info>
+                <address text="大阪府大阪市北区曽根崎新地１-４-１２桜橋プラザビル" class="info-details" />
+                <telephone text="06-6347-5501（代）" class="info-details" />
+                <fax text="	06-6347-5551" class="info-details" />
+            </info>
+            <link class="show-link">
+                <url text="/inter/assets/pdf/osaka(address).pdf" />
+                <text text="地図を見る" />
+            </link>
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/Main Branch.png" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="日米特許取得" />
+                <date text="(2006年07月)" />
+            </header>
+            <paragraph text="当社の独自技術の卓越性が米国でも認められ、２００６年７月「HyperTree」に関する米国特許（PAT.№.７８００８７）が成立しました。特許の内容は国内特許（3230677号）と同等です。" />
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/UStokkyo-zoom.png" alt="/inter/assets/images/topics/UStokkyo.jpg" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="当社の開発ツールがUFJ育成基金に採択" />
+                <date text="(2004年12月07日)" />
+            </header>
+            <paragraph text="当社の特許である「HyperTree」を内蔵した「プロダクションシステム開発ツール（開発中）」が、 財団法人　UFJベンチャー育成基金　様に育成対象として採択されました。" />
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/HTF-alt.png" alt="/inter/assets/images/topics/HTF.png" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="NEC国内営業ビジネスユニット貢献賞を受賞" />
+                <date text="(2004年11月26日)" />
+            </header>
+            <paragraph text="当社は、日本電気(株)パートナーとしてネットワークビジネス業Ｎ社基幹システムの実績に対し、日本電気様の「国内ビジネスユニット貢献賞」を受賞しました。" />
+            <nextline text="" />
+            <bold text="本システムの特徴" />
+            <nextline text="" />
+            <nextline text="「本社管理レベル向上」「代理店の業務効率化と情報武装化」を最優先テーマとした販売・物流中心のＷｅｂ基幹システム開発に成功しました。" />
+            <nextline text="特にネットワークビジネスにおいて最も重要な会員／組織の階層構造をHyperTreeで管理する事により刻々と変動する会員／組織情報に対してポイント計算やランクアップの逐次処理を実現し、従来手作業で行っていた各種実績および組織図の自動化をリアルタイムで実現しました。" />
+        </textContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="東京支店　住友大井町ビルへ移転" />
+                <date text="(2004年08月30日)" />
+            </header>
+            <paragraph text="２００４年８月３０日弊東京支店は、丸の内から、品川区大井町へと移転いたしました。この移転によって、主要顧客とのより緊密な関係を維持できるようになり、又、弊社財務体質の強化にも大いに役立つ事となりました。新事務所は、ＪＲ大井町駅から徒歩５分程の所にあります。この駅は、新幹線の停まる品川駅から京浜東北線で、一つ横浜寄りです。東急大井町線 、りんかい線も、夫々利用出来、便利さは従来と殆どかわりません。この移転を機に、お得意様に一層のご満足を頂ける様、社員一同気分を新たにして　皆様のお越しをお待ちしております。" />
+            <info>
+                <address text="	東京都品川区大井１－２０－１０住友大井町ビル南館６階" class="info-details" />
+            </info>
+        </textContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="HyperTree(HT)の実用化促進プロジェクトが顕彰されました" />
+                <date text="(2002年12月12日)" />
+            </header>
+            <paragraph text="２００２年１２月、当社プロジェクト『状態空間法をベースとしたＸＭＬを含むインテグレーション・インターフェイスの開発』が、ＵＦＪ銀行がベンチャー企業育成を支援するために創設した（財）ＵＦＪベンチャー育成基金様より、実用化に向け著しい成果を挙げていることを評価され、顕彰を受けました。 このプロジェクトは、当社独自開発の「HyperTree」をコア技術として、今日多くの顧客企業で共通の要請となっている「企業内外に跨る情報システム間の効率的かつ迅速な統合（インテグレーション）」に向けた革新的な技術開発をめざしたもので、同基金の２０００年度債務保証事業としても既に認証を受けていたものでありましたが、今回のこの「顕彰」を大いなる励みとして、当社は独自技術の「HyperTree」を次代の柱の一つとなる事業に育てるべく、その応用対象の拡大、システム構築基盤技術としての統・体系化に向け、日々研鑽を重ねて参ります。" />
+            <bold text="リンク" />
+            <nextline text="" />
+            <link>
+                <url text="/inter/hypertree" />
+                <text text="「HyperTree」" />
+            </link>
+        </textContainer>
+        <imgContainer class="col-md-4 img">
+            <img text="/inter/assets/images/topics/topics_hyousyou00.gif" alt="/inter/assets/images/topics/topics_hyousyou00.gif" />
+        </imgContainer>
+    </topic>
+
+    <topic>
+        <textContainer class="col-md-8 text">
+            <header>
+                <title text="名古屋支店 開設" />
+                <date text="(2002年08月01日)" />
+            </header>
+            <nextline text="当社は１９８５年の会社設立より、大阪、東京、浜松の３拠点で営業を続けてきましたが、近年名古屋を中心としたお客様が増加したため、２００２年８月１日にＪＲ名古屋駅近くのビルに名古屋支店を開設致しました。" />
+            <nextline text="開設時より約３０名のメンバーが稼動し、お客さまに密着したサービスを提供できる環境が整ったことにより、お客さまから信頼と安心の声を頂いています。" />
+            <nextline text="国際博覧会が開催され、ますます注目される名古屋地区で、当社の名古屋支店が注目される存在になれるよう、支店をあげて努力してまいります。" />
+            <info>
+                <address text="愛知県名古屋市中村区名駅 ３－２６－８名古屋駅前日興證券ビル４Ｆ" class="info-details" />
+            </info>
+        </textContainer>
+    </topic>
+
+    
+</topics>

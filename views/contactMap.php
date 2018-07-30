@@ -1,0 +1,170 @@
+<!-- contact map by mark -->
+<div class="row" id="contact">
+		<div class="col-sm-12 col-md-6 map-container">
+			<div class="map">
+				<ul class="map-pointer">
+					<!-- osaka -->
+					<li id="osaka" class="map-container selected animate-map-marker">
+						<!-- osaka pin -->
+						<div class='pin'></div>
+						<div class='pulse-active'></div>
+
+						<!-- osaka details -->
+						<div class="map-marker-info">
+							<!-- osaka title -->
+							<h4 class="title">
+								<span class="title-main">大阪本社</span>
+								<span class="title-div">|</span>
+								<span class="title-sub">Osaka</span>
+							</h4>
+							<!-- osaka detail -->
+							<ul class="main">
+								<li>
+									<span><img src="/inter/assets/images/common/map-marker.png"></span>
+									<span>〒530-0002 大阪府大阪市北区曽根崎新地 1-4-12　桜橋プラザビル</span>
+								</li>
+								<li>
+									<span><img src="/inter/assets/images/common/phone.png"></span>
+									<span>06-6347-5501（代）</span>
+								</li>
+								<li>
+									<span><img src="/inter/assets/images/common/printer.png"></span>
+									<span>06-6347-5551</span>
+								</li>
+							</ul>
+							<!-- osaka line -->
+							<div class="vline vline-left"></div>
+							<div class="hline hline-left"></div>
+						</div>
+					</li>
+					<!-- nagoya -->
+					<li id="nagoya" class="map-container  unselected">
+						<!-- nagoya pin -->
+						<div class='pin'></div>
+						<div class='pulse-inactive'></div>
+						<!-- nagoya details -->
+						<div class="map-marker-info">
+							<!-- nagoya title -->
+							<h4 class="title">
+								<span class="title-main">名古屋支店</span>
+								<span class="title-div">|</span>
+								<span class="title-sub">Nagoya</span>
+							</h4>
+							<!-- nagoya main -->
+							<ul class="main">
+								<li>
+									<span><img src="/inter/assets/images/common/map-marker.png"></span>
+									<span>〒450-0002 愛知県名古屋市中村区名駅 3-11-22　ＩＴ名駅ビル</span>
+								</li>
+								<li>
+									<span><img src="/inter/assets/images/common/phone.png"></span>
+									<span>052-588-3480</span>
+								</li>
+								<li>
+									<span><img src="/inter/assets/images/common/printer.png"></span>
+									<span>052-588-3481</span>
+								</li>
+							</ul>
+							<!-- nagoya line -->
+							<div class="vline vline-left"></div>
+							<div class="hline hline-left"></div>
+						</div>
+					</li>
+					<!-- tokyo -->
+					<li id="tokyo" class="map-container unselected">
+						<!-- tokyo pin -->
+						<div class='pin'></div>
+						<div class='pulse-inactive'></div>
+						<!-- tokyo details -->
+						<div class="map-marker-info">
+							<!-- tokyo title -->
+							<h4 class="title">
+								<span class="title-main">東京支店</span>
+								<span class="title-div">|</span>
+								<span class="title-sub">Tokyo</span>
+							</h4>
+							<!-- tokyo main -->
+							<ul class="main">
+								<li>
+									<span><img src="/inter/assets/images/common/map-marker.png"></span>
+									<span>〒160-0023 東京都新宿区西新宿1-13-12 西新宿昭和ビル</span>
+								</li>
+								<li>
+									<span><img src="/inter/assets/images/common/phone.png"></span>
+									<span>03-6279-0531（代）</span>
+								</li>
+								<li>
+									<span><img src="/inter/assets/images/common/printer.png"></span>
+									<span>03-6279-0532</span>
+								</li>
+							</ul>
+							<!-- tokyo line -->
+							<div class="vline vline-left"></div>
+							<div class="hline hline-left"></div>
+						</div>
+					</li>
+					<!-- hamamatsu -->
+					<li id="hamamatsu" class="map-container unselected">
+						<!-- hamamatsu pin -->
+						<div class='pin'></div>
+						<div class='pulse-inactive'></div>
+						<!-- hamamatsu details -->
+						<div class="map-marker-info">
+							<!-- hamamatsu title -->
+							<h4 class="title">
+								<span class="title-main">浜松支店</span>
+								<span class="title-div">|</span>
+								<span class="title-sub">Hamamatsu</span>
+							</h4>
+							<!-- hamamatsu main -->
+							<ul class="main">
+								<li>
+									<span><img src="/inter/assets/images/common/map-marker.png"></span>
+									<span>〒430-0926 静岡県浜松市中区砂山町353-8　太陽生命浜松ビル</span>
+								</li>
+								<li>
+									<span><img src="/inter/assets/images/common/phone.png"></span>
+									<span>053-455-0005</span>
+								</li>
+								<li>
+									<span><img src="/inter/assets/images/common/printer.png"></span>
+									<span>053-455-0066</span>
+								</li>
+							</ul>
+							<!-- hamamatsu line -->
+							<div class="vline vline-left"></div>
+							<div class="hline hline-left"></div>
+						</div>
+					</li>
+				</ul>
+			    <img src="/inter/assets/images/contact/map-japan.png">
+            </div>
+		</div>
+
+		<div class="col-sm-12 col-md-6 container-detail" >
+			<div class="contact-detail">
+				<div class="contact-detail-years animate-this fade-this-left">
+					<h4>
+						<span class="title-icon"><img src="/inter/assets/images/contact/trophy-icon.png"></span>
+						<span class="title-name">創設30年の卓越したサービス</span>
+					</h4>
+					<p>
+						私たちプロのＳＥ集団は常に時代の先端で培ってきた技術と各方面・各分野で築いてきた多くの実績があります。 ビジネスニーズにお応えするパッケージ開発力で、お客様の「問題解決」につながるご提案を行い、優れた性能と品質、確かな導入効果は、ユーザー様から高い評価をいただいています。
+					</p>
+				</div>
+				<div class="contact-detail-email animate-this fade-this-left">
+					<h4>
+						<span class="title-icon"><img src="/inter/assets/images/contact/contact-icon.png"></span>
+						<span class="title-name">お問い合わせ</span>
+					</h4>
+					<p>
+						メールでのお問い合わせをご希望の方は、下記アドレスまでご連絡ください。
+						なお、回答に時間を要する場合もございます。あらかじめご了承願います。
+					</p>
+					<h5>info@nisz.co.jp</h5>
+				</div>
+			</div>
+		</div>
+
+
+	</div>

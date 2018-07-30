@@ -1,0 +1,79 @@
+<productsHome>
+	<product>
+		<image>/inter/assets/images/products/NurseAIDResize.jpg</image>
+		<title>NurseAID</title>
+		<subtitle>看護勤務管理システム</subtitle>
+		<desc>実績をもとに進化してきたNurseAIDは、看護職員特有の勤怠に特化しており、Interが手がける看護管理部門支援システムの中核として 管理部門の業務を劇的に改善<span class='in-bl'>します。</span></desc>
+		<link>/inter/products/nurseaid</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/NurseNaviResize.jpg</image>
+		<title>NurseNavi</title>
+		<subtitle>キャリア開発支援システム</subtitle>
+		<desc>看護職員を取り巻く環境を改善する現在の流れのなかで、計画的な教育が必須となります。その際、教育分野の作業を効果的に<span class='in-bl'>サポート</span><span class='in-bl'>します。</span></desc>
+		<link>/inter/products/nursenavi</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/elearningResize.jpg</image>
+		<title>Nurse e-Learning</title>
+		<subtitle>看護職員向けeラーニングアプライ</subtitle>
+		<desc>質の高い看護が求められている現代において、従来の集合教育やOJTだけではフォローしきれなかった部分を強力にサポートします。NurseNAVIとアドオンすることで、より効果的に運用して<span class='in-bl'>いただけます。</span></desc>
+		<link>/inter/products/elearning</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/MedworksResize.jpg</image>
+		<title>MedWorks</title>
+		<subtitle>勤務管理システム</subtitle>
+		<desc>医師・看護師等、医療機関職員の勤務に対し、国から様々な施策が行われようとしている中、 MedWorks導入による勤怠管理の一元化は、管理業務の効率化に高いパフォーマンスを発揮<span class='in-bl'>します。</span></desc>
+		<link>/inter/products/medworks</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/MultipackResize.jpg</image>
+		<title>Multipack Works</title>
+		<subtitle>グループウェア</subtitle>
+		<desc>オーダーリングシステム等の基幹システムとの連携を考慮したつくりになっているため 複数の業務システムのデータを活用することで、誤りのない積極的な情報一元管理が実現<span class='in-bl'>します。</span></desc>
+		<link>/inter/products/multipack</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/MedicalPartneriAResize.jpg</image>
+		<title>Medical Partner iA</title>
+		<subtitle>インシデント管理システム</subtitle>
+		<desc>誰もが簡単・気軽に入力を行える画面、様々な様式での分析を行う機能で、 医療事故防止に少しでも助力出来ればと考えて<span class='in-bl'>おります。</span></desc>
+		<link>/inter/products/mpia</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/cResResize.jpg</image>
+		<title>Medical Partner cRes</title>
+		<subtitle>治験管理システム</subtitle>
+		<desc>治験業務全般(IRB文書の作成から、患者の選定、スケジュール、実施、終了)を包括しており、 一貫性を持った管理を実現し、日常業務の負荷を軽減<span class='in-bl'>します。</span></desc>
+		<link>/inter/products/mpcres</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/InfectionManagerResize.jpg</image>
+		<title>Medical Partner Infection Manager</title>
+		<subtitle>感染症管理システム</subtitle>
+		<desc>院内で発生する感染症を早期に認知・発見すること(サーベイランス)を目的とし スピードと正確性を必要とするサーベイランス業務を強力にサポート<span class='in-bl'>します。</span></desc>
+		<link>/inter/products/mpim</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/careHomeResize.jpg</image>
+		<title>CareHome Manager</title>
+		<subtitle>介護付有料老人ホーム向け施設管理システム</subtitle>
+		<desc>日本最大規模の社会福祉法人様での実績をもとに、有料老人ホーム向け施設管理システムパッケージを開発しました。入居者の管理は勿論の事、国保連に対応した請求機能も用意して<span class='in-bl'>おります。</span></desc>
+		<link>/inter/products/carehome</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/NurseWorkingResize.jpg</image>
+		<title>NurseWorking</title>
+		<subtitle>看護支援システム</subtitle>
+		<desc>看護業務に欠かせない「ワークシート」や「看護経過」、『看護必要度』と『褥瘡管理』を標準機能として備え、日々の業務を強力にサポート。高い操作性で業務時間を短縮し、これまで以上に患者様と向き合える時間を確保<span class='in-bl'>します。</span></desc>
+		<link>none</link>
+	</product>
+	<product>
+		<image>/inter/assets/images/products/LinicResize.jpg</image>
+		<title>LINIC III</title>
+		<subtitle>飼料配合設計システム</subtitle>
+		<desc>国際相場の下落や需要の伸び悩み、穀物メジャーの進出など、牛、豚、にわとり等の飼料配合業界をとりまく状況は厳しい。その中で、生産の合理化がキーポイントになり理想的購買計画、最適な原料の配合設計を迅速・正確に行うコンピュータシステムが大きな戦力と<span class='in-bl'>なる。</span></desc>
+		<link>/inter/products/linic</link>
+	</product>
+</productsHome>

@@ -1,0 +1,968 @@
+/*------------------------------------*\
+#career css 
+#by mark
+\*------------------------------------*/
+
+
+/* 
+JP-27 Osaka
+JP-13 Tokyo
+JP-22 Shizuoka
+JP-21 Gifu 
+*/
+
+
+/*------------------------------------*\
+#GLOBAL VALUES
+\*------------------------------------*/
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*------------------------------------*\
+#CONTACT CONTAINER
+\*------------------------------------*/
+
+#contact.row {
+    position: relative;
+    background: #f8f8f8;
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*------------------------------------*\
+#MAP SECTION
+\*------------------------------------*/
+
+#contact .map-container {
+    padding-left: 10%;
+}
+
+#contact .map {
+    padding: 5%;
+    position: relative;
+}
+
+#contact .map img {
+    height: auto;
+    width: 95%;
+}
+
+
+/* map pointer position */
+
+#contact .map-pointer {
+    list-style: none;
+}
+
+
+/* osaka position */
+
+#contact .map-pointer #osaka {
+    visibility: visible;
+    position: absolute;
+    top: 65%;
+    left: 38%;
+}
+
+
+/* nagoya position */
+
+#contact .map-pointer #nagoya {
+    visibility: visible;
+    position: absolute;
+    top: 62%;
+    left: 45%;
+}
+
+
+/* tokyo position */
+
+#contact .map-pointer #tokyo {
+    visibility: visible;
+    position: absolute;
+    top: 57%;
+    left: 61%;
+}
+
+
+/* hamamatsu position */
+
+#contact .map-pointer #hamamatsu {
+    visibility: visible;
+    position: absolute;
+    top: 63%;
+    left: 51%;
+}
+
+
+/*------------------------------------*\
+#MAP MARKER CONTAINER
+\*------------------------------------*/
+
+
+/* map marker visibility */
+
+
+/* detail container */
+
+#contact .map-marker-info {
+    display: block;
+    position: absolute;
+    width: 250px;
+    font-size: 14px;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    transform: translate(-33%, -70%);
+    backface-visibility: hidden;
+}
+
+
+/* detail title */
+
+#contact .title {
+    transform: translateY(-20%);
+    opacity: 0;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+#contact .title .title-sub {
+    font-weight: 500;
+    font-size: 0.8em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+/* detail content */
+
+#contact .main {
+    list-style: none;
+    transform: translateY(20%);
+    opacity: 0;
+    font-size: 14px;
+}
+
+#contact .main li {
+    padding-top: 5px;
+}
+
+#contact .main span {
+    display: table-cell;
+}
+
+#contact .main img {
+    height: auto;
+    width: 18px;
+    margin-right: 10px;
+}
+
+
+/*------------------------------------*\
+#LINE SECTION
+\*------------------------------------*/
+
+
+/* line main */
+
+#contact .hline {
+    display: block;
+    position: absolute;
+    background-color: #979797;
+    height: 2px;
+    z-index: 2;
+    width: 0%;
+}
+
+#contact .hline-left {
+    bottom: 65%;
+    right: -4%;
+}
+
+#contact .vline {
+    display: block;
+    position: absolute;
+    background-color: #979797;
+    height: 2px;
+    z-index: 2;
+    width: 0%;
+}
+
+#contact .vline-left {
+    bottom: -69%;
+    right: -16%;
+    width: 0%;
+    transform: rotate(82deg);
+}
+
+
+/*------------------------------------*\
+#PIN SECTION
+\*------------------------------------*/
+
+
+/* map pin */
+
+#contact .pin {
+    margin: -1px 0 0 -24px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border-radius: 50% 50% 50% 0;
+    border: 4px solid #007991;
+    width: 24px;
+    height: 24px;
+    transform: rotate(-45deg);
+    z-index: 2;
+    opacity: 0;
+}
+
+#contact .pin::after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    background-color: #007991;
+}
+
+
+/* inactive pulse */
+
+#contact .pulse-inactive {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 21px 0px 0px -19px;
+    transform: rotateX(55deg);
+    z-index: 1;
+}
+
+
+/* active pulse */
+
+#contact .pulse-active {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 21px 0px 0px -19px;
+    transform: rotateX(55deg);
+    z-index: 1;
+}
+
+#contact .pulse-active:after {
+    content: "";
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin: -13px 0 0 -13px;
+    animation: pulse-animate 1s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    box-shadow: 0 0 1px 2px #89849b;
+}
+
+
+/*------------------------------------*\
+#CONTACT DETAIL SECTION
+\*------------------------------------*/
+
+#contact .container-detail {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 10%;
+    transform: translateY(5%);
+}
+
+
+/* detail years */
+
+#contact .contact-detail-years {
+    border-left: 6px solid #007c99;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 1);
+    line-height: 20px;
+}
+
+
+/* detail years - title */
+
+#contact .contact-detail-years h3 {
+    font-size: 35px;
+    text-align: left;
+    font-weight: 700;
+    white-space: normal;
+}
+
+
+/* detail years - content */
+
+#contact .contact-detail-years p {
+    margin-top: 20px;
+    text-indent: 1em;
+}
+
+
+/* detail email */
+
+#contact .contact-detail-email {
+    margin-top: 5%;
+    margin-bottom: 35%;
+    border-left: 6px solid #007c99;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 1);
+}
+
+
+/* detail email - title */
+
+#contact .title {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#contact .title-icon {
+    padding-right: 10px;
+    display: table-cell;
+}
+
+#contact .title-name {
+    text-transform: uppercase;
+    display: table-cell;
+}
+
+#contact .title-icon img {
+    transform: translate(-33%, -70%);
+    height: auto;
+    width: 40px;
+    transform: translateY(-10%)
+}
+
+
+/* detail email - email  */
+
+#contact .contact-detail-email h5 {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*------------------------------------*\
+#ANIMATION SECTION
+\*------------------------------------*/
+
+
+/* title animation */
+
+#contact .title-animate {
+    animation: title-animate 1s 0.5s forwards;
+}
+
+#contact .title-animate-init {
+    animation: title-animate 1s 1s forwards;
+}
+
+#contact .title-animate-return {
+    transform: translateX(0%);
+    opacity: 1;
+    animation: title-animate-return 0.2s forwards;
+}
+
+
+/* map content animation */
+
+#contact .main-animate {
+    animation: main-animate 1s 0.5s forwards;
+}
+
+#contact .main-animate-init {
+    animation: main-animate 1s 1s forwards;
+}
+
+#contact .main-animate-return {
+    transform: translateX(0%);
+    opacity: 1;
+    animation: main-animate-return 0.2s forwards;
+}
+
+
+/* hline animation*/
+
+#contact .hline-left-animate-init {
+    animation: hline-left-animate 0.5s 1s forwards;
+    transition-timing-function: cubic-bezier(.62, .13, .61, .85);
+}
+
+#contact .hline-left-animate {
+    animation: hline-left-animate 0.5s 0.5s forwards;
+    transition-timing-function: cubic-bezier(.62, .13, .61, .85);
+}
+
+#contact .hline-left-animate-return {
+    width: 110%;
+    animation: hline-left-animate-return 0.5s forwards;
+    transition-timing-function: cubic-bezier(.62, .13, .61, .85);
+}
+
+
+/* vline animation */
+
+#contact .vline-left-animate-init {
+    animation: vline-left-animate 0.5s 0.5s forwards;
+}
+
+#contact .vline-left-animate {
+    animation: vline-left-animate 0.5s forwards;
+}
+
+#contact .vline-left-animate-return {
+    bottom: 1%;
+    right: -48%;
+    width: 78%;
+    opacity: 1;
+    animation: vline-left-animate-return 0.1s 0.2s forwards;
+}
+
+.pin-animate {
+    animation-name: pin-animate;
+    animation-fill-mode: both;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+
+/*------------------------------------*\
+#KEYFRAME SECTION
+\*------------------------------------*/
+
+
+/* title keyframes */
+
+@keyframes title-animate {
+    0% {
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes title-animate-return {
+    0% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+}
+
+
+/* main contents keyframe */
+
+@keyframes main-animate {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes main-animate-return {
+    0% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+}
+
+
+/* vline keyframes */
+
+@keyframes vline-left-animate {
+    from {
+        opacity: 0;
+        bottom: -69%;
+        right: -16%;
+        width: 0%;
+    }
+    to {
+        opacity: 1;
+        bottom: 1%;
+        right: -48%;
+        width: 78%;
+    }
+}
+
+@keyframes vline-left-animate-return {
+    from {
+        bottom: 1%;
+        right: -48%;
+        width: 78%;
+        opacity: 1;
+    }
+    to {
+        bottom: -69%;
+        right: -16%;
+        width: 0%;
+        opacity: 0;
+    }
+}
+
+
+/* hline keyframes */
+
+@keyframes hline-left-animate {
+    from {
+        width: 0%;
+        opacity: 0;
+    }
+    to {
+        width: 110%;
+        opacity: 1;
+    }
+}
+
+@keyframes hline-left-animate-return {
+    from {
+        width: 110%;
+        opacity: 1;
+    }
+    to {
+        width: 0%;
+        opacity: 0;
+    }
+}
+
+
+/* pulse keyframe */
+
+@keyframes pulse-animate {
+    0% {
+        transform: scale(0.1, 0.1);
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    50% {
+        opacity: 1;
+        filter: none;
+    }
+    100% {
+        transform: scale(1.2, 1.2);
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+
+
+/* pin keyframe */
+
+@keyframes pin-animate {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* map keyframe */
+
+@keyframes unselected-animate {
+    from {
+        display: block
+    }
+    to {
+        display: none;
+    }
+}
+
+
+/*------------------------------------*\
+#MEDIA QUERIES
+\*------------------------------------*/
+
+@media only screen and (max-device-width: 690px),
+(max-width: 690px) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(33%, -3%) scale(0.9);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(28%);
+    }
+    /* map marker pin */
+    #contact .pin {
+        border: 3px solid #007991;
+    }
+    /* line visibility */
+    #contact .hline,
+    #contact .vline {
+        display: none;
+    }
+    /* map container visibility */
+    #contact .selected .map-marker-info {
+        display: block;
+    }
+    #contact .unselected .map-marker-info {
+        display: none;
+    }
+    /* title animation */
+    #contact .title-animate {
+        animation: title-animate 1s forwards;
+    }
+    /* main animation */
+    #contact .main-animate {
+        animation: main-animate 1s forwards;
+    }
+}
+
+@media only screen and (max-device-width: 667px),
+(max-width: 667px) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(33%, -3%) scale(0.9);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(25%);
+    }
+}
+
+@media only screen and (max-device-width: 568px),
+(max-width: 568px) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(34%, -3%) scale(0.9);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(35%);
+    }
+}
+
+@media only screen and (max-device-width: 525px),
+(max-width: 525px) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(36%, -3%) scale(0.9);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(7%);
+    }
+}
+
+@media only screen and (max-device-width: 438px),
+(max-width: 438px) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(36%, -3%) scale(0.9);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(29%);
+    }
+    /* map marker pin */
+    #contact .pin {
+        border: 3px solid #007991;
+    }
+    /* map marker position*/
+    #contact .map-pointer #osaka {
+        top: 63%;
+        left: 38%;
+    }
+    #contact .map-pointer #nagoya {
+        top: 59%;
+        left: 46%;
+    }
+    #contact .map-pointer #tokyo {
+        top: 55%;
+        left: 63%;
+    }
+    #contact .map-pointer #hamamatsu {
+        top: 62%;
+        left: 52%;
+    }
+}
+
+@media only screen and (max-device-width: 425px),
+(max-width: 425px) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(36%, -3%) scale(0.9);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(38%);
+    }
+    /* map marker position*/
+    #contact .map-pointer #osaka {
+        top: 63%;
+        left: 38%;
+    }
+    #contact .map-pointer #nagoya {
+        top: 59%;
+        left: 46%;
+    }
+    #contact .map-pointer #tokyo {
+        top: 55%;
+        left: 63%;
+    }
+    #contact .map-pointer #hamamatsu {
+        top: 62%;
+        left: 52%;
+    }
+}
+
+@media only screen and (max-device-width: 375px),
+(max-width: 375px) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(36%, -3%) scale(0.83);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(58%);
+    }
+    /* map marker pin */
+    #contact .pin {
+        border: 3px solid #007991;
+    }
+    /* map marker position*/
+    #contact .map-pointer #osaka {
+        top: 62%;
+        left: 39%;
+    }
+    #contact .map-pointer #nagoya {
+        top: 59%;
+        left: 46%;
+    }
+    #contact .map-pointer #tokyo {
+        top: 54%;
+        left: 63%;
+    }
+    #contact .map-pointer #hamamatsu {
+        top: 61%;
+        left: 53%;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(34%, -3%) scale(0.9);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(25%);
+    }
+}
+
+@media only screen and (max-device-width: 325px),
+(max-width: 325px) {
+    /* map contents container */
+    #contact .map-marker-info {
+        width: 330px;
+        background: rgba(207, 244, 255, 0.2);
+        border: 2px solid #007c99;
+        padding: 20px;
+        padding-right: 10px;
+        border-radius: 5px;
+        transform: translate(38%, 5%) scale(0.7);
+    }
+    #contact .map-marker-info::after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #007c99;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(26%);
+    }
+    /* map marker pin */
+    #contact .pin {
+        margin: -1px 0 0 -24px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        border-radius: 50% 50% 50% 0;
+        border: 3px solid #007991;
+        width: 18px;
+        height: 18px;
+        transform: rotate(-45deg);
+        z-index: 2;
+    }
+    #contact .pin::after {
+        width: 8px;
+        height: 8px;
+        margin-left: -4px;
+        margin-top: -4px;
+    }
+    /* map marker pulse */
+    #contact .pulse-active,
+    #contact .pulse-inactive {
+        margin: 13px 0px 0px -22px;
+    }
+    /* map marker position */
+    #contact .map-pointer #osaka {
+        top: 63%;
+        left: 40%;
+    }
+    #contact .map-pointer #nagoya {
+        top: 60%;
+        left: 48%;
+    }
+    #contact .map-pointer #tokyo {
+        top: 55%;
+        left: 64%;
+    }
+    #contact .map-pointer #hamamatsu {
+        top: 62%;
+        left: 54%;
+    }
+}

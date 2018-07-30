@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans Japanese', sans serif;
+}
+
+#logo {
+    position: absolute; 
+    width: 120px;
+    height: 50px;
+}
+
+#navigation-bar {
+    background: rgba(35,35,35,.7);
+	box-shadow: 0 2px 4px -2px rgba(0,0,0,.5);
+    /* background-color: #4c4c4c;
+    z-index: 3;
+    min-height: 70px !important; */
+} 
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+

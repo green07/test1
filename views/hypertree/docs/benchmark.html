@@ -1,0 +1,139 @@
+<h6>HTベンチマークテスト</h6>
+<hr />
+<ol>
+    <li>
+        <h4>入力データ：１億件（２００byte/件）＝読み込み＋”HyperTree”の作成（処理）</h4>
+        <table>
+            <tr>
+                <th>ＯＳ</th>
+                <th>読み込み </th>
+                <th>”Hyper Tree”の作成</th>
+                <th>合計</th>
+            </tr>
+            <tr>
+                <td>ＷｉｎｄｏｗｓＮＴ</td>
+                <td>１７分１０秒 </td>
+                <td>４分１１秒 </td>
+                <td>２１分２１秒</td>
+            </tr>
+            <tr>
+                <td>ＬＩＮＵＸ </td>
+                <td>９分３９秒</td>
+                <td>２分５９秒</td>
+                <td>１２分３８秒</td>
+            </tr>
+        </table>
+        →実質分類集計処理能力＝１秒で５５．９万件
+        <br/>
+        <br/>
+        <div class="footnote">
+            ※環境：PentiumⅢ(800MHz),メモリー512MB,DISK40GB,言語C++
+        </div>
+            
+    </li>
+    <li>
+        <h4>某企業における｢全社会計システム｣（全事業本部、関連会社）</h4>
+        <table class="no-border">
+            <tr>
+                <td>テスト内容：</td>
+                <td>
+                    ＳＡＭファイルを読み込みサマリー結果をＳＡＭファイルとして出力
+                    <br />実環境ではサマリー結果をＲＤＢ（ＯＲＡＣＬＥ）に更新
+                </td>
+            </tr>
+            <tr>
+                <td>入力ファイル：</td>
+                <td>７１万件（２０００Ｂｙｔｅ）／件）Ｋｅｙ＝１０項目</td>
+            </tr>
+            <tr>
+                <td>出力ファイル:</td>
+                <td>総合計</td>
+            </tr>
+        </table>
+        <br/>
+        ＳＡＭファイル入力
+        <table>
+            <tr>
+                <th>ＳＡＭファイル読み込み</th>
+                <th>”HyperTree”の作成</th>
+                <th>合計</th>
+            </tr>
+            <tr>
+                <td>１１４．６秒</td>
+                <td>１．５秒</td>
+                <td>１１６．１秒</td>
+            </tr>
+        </table>
+        →実質分類集計処理能力＝１秒で４７．４万件（ＷｉｎｄｏｗｓＮＴ）
+        <br />
+        <br />
+        ＳＡＭファイル出力
+        <table>
+            <tr>
+                <th>ＳＡＭファイル読み込み</th>
+                <th>”HyperTree”の作成</th>
+                <th>合計</th>
+            </tr>
+            <tr>
+                <td>
+                    １０９．５秒
+                    <br />参考：トラバース＝０．３６秒
+                </td>
+                <td>３３．２秒</td>
+                <td>１４２．７秒</td>
+            </tr>
+        </table>
+        →実質トラバース処理能力＝０．３６秒／５万件
+        <br />
+        <br/>
+        <div class="footnote">
+            ※環境：PentiumⅢ(800MHz),メモリー512MB,DISK40GB,言語C++
+        </div>
+    </li>
+    <li>
+        <h4>ＭＲＰシステム（当社シミュレーション結果）</h4>
+        データ件数
+        <table class="no-border">
+            <tr>
+                <td>品目マスター：</td>
+                <td>約３，０００件</td>
+            </tr>
+            <tr>
+                <td>原単位マスター：</td>
+                <td>約１５，０００件 </td>
+            </tr>
+            <tr>
+                <td>販売計画:</td>
+                <td>約１，０００件</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th></th>
+                <th class="no_wrap">処理時間 <br />（３００ＭＨｚ）</th>
+                <th class="no_wrap">処理時間 <br />（５００ＭＨｚ）</th>
+                <th>占有メモリ</th>
+                <th>備　考</th>
+            </tr>
+            <tr>
+                <td>ＭＲＰ階層№設定</td>
+                <td>５０秒</td>
+                <td>３０秒</td>
+                <td>２５ＭＢ</td>
+                <td>ＴＥＸＴ読み込みから出力まで</td>
+            </tr>
+            <tr>
+                <td>ＭＲＰ処理</td>
+                <td>５０秒</td>
+                <td>３０秒</td>
+                <td>１０ＭＢ</td>
+                <td>同上</td>
+            </tr>
+        </table>
+        <br/>
+        <div class="footnote">
+            ※ＭＲＰ処理そのものは３～４秒で終了、大半はＴＥＸＴファイルの読み込み書き込み時間
+        </div>
+        
+    </li>
+</ol>
